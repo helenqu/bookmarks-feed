@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+
+	"name": "Bookmarks Feed",
+	"description": "This extension creates a feed of your bookmarks.",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": ["bookmarks"]
+}
